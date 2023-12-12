@@ -16,14 +16,6 @@ function App() {
         <Button />
         <Input />
         <Paragraph />
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          This is test
-        </a>
       </header>
     </div>
   );
