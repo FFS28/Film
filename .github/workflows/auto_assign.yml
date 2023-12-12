@@ -7,11 +7,7 @@ jobs:
   add-reviews:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Code
-        uses: actions/checkout@v2
-
       - name: Run Auto Assign Action
-        uses: kentaro-m/auto-assign-action@v1.2.2
+        uses: kentaro-m/auto-assign-action@v1.2.5
         with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
           configuration-path: .github/auto_assign.yml
