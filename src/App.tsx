@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Button from './components/Button';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <p>
           Hahaha I understood ssh key and gpg key.
         </p>
+        <Button />
         <a
           className="App-link"
           href="https://reactjs.org"
