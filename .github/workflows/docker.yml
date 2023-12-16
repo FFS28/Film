@@ -9,7 +9,7 @@ on:
       - "master"
 
 env:
-  IMAGE_NAME: user/app
+  IMAGE_NAME: viper28/viper28_test
 
 jobs:
   docker:
